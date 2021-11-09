@@ -17,7 +17,7 @@
 ## Установка
 
 - из локального файла *.ospx: `opm i -f coloratos.ospx`
-- по прямому url: `opm i --url https://github.com/240596448/coloratos/releases/download/v{TAG}/coloratos-{TAG}.ospx`, где {TAG} - номер релиза
+- по прямому URL: `opm i --url https://github.com/240596448/coloratos/releases/download/v{TAG}/coloratos-{TAG}.ospx`, где {TAG} - номер релиза
 - из репозитория `oscript setup.os {TAG}`, где {TAG} - номер релиза вида X.X.X (см. https://github.com/240596448/coloratos/releases)
 
 ----------------------------------------------------
@@ -43,5 +43,8 @@
 > Результат:  
 ![doc/capture2.png](doc/capture2.png)
 
+
+***Особенность:*** шаблон `(Текст|#color=Цвет)` не поддерживает переносы текста выделяемой подстроки  
+
 -------------------------------------------------
-Больше примеров см. в [test/test.os](test/test.os)
+[-->](test/test.os) Больше примеров в [test/test.os](test/test.os)
