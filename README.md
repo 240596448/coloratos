@@ -17,8 +17,8 @@
 ## Установка
 
 - из локального файла *.ospx: `opm i -f coloratos.ospx`
-- по прямому URL: `opm i --url https://github.com/240596448/coloratos/releases/download/v{TAG}/coloratos-{TAG}.ospx`, где {TAG} - номер релиза
-- из репозитория `oscript setup.os {TAG}`, где {TAG} - номер релиза вида X.X.X (см. https://github.com/240596448/coloratos/releases)
+- по прямому URL: `opm i --url https://github.com/240596448/coloratos/releases/download/v{VERSION}/coloratos-{VERSION}.ospx`, где {VERSION} - номер релиза
+- из репозитория `oscript setup.os {VERSION}`, где {VERSION} - номер релиза вида X.X.X (см. https://github.com/240596448/coloratos/releases)
 
 ----------------------------------------------------
 
