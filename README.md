@@ -16,12 +16,14 @@
 
 ## Установка
 
+- из хаба пакетов `opm i coloratos`
 - из локального файла *.ospx: `opm i -f coloratos.ospx`
-- с помощью установщика `oscript setup.os VERSION`, где VERSION - номер релиза (см. https://github.com/240596448/coloratos/releases)
-- с помощью установщика `oscript setup.os latest` - установка последней версии
-- с помощью установщика `oscript setup.os` - интерактивный выбор версии  
-> Пример:  
-![doc/capture3.png](doc/capture3.png)
+- с помощью установщика:
+  -  `oscript setup.os VERSION`, где VERSION - номер релиза (см. https://github.com/240596448/coloratos/releases)
+  - `oscript setup.os latest` - установка последней версии
+  - `oscript setup.os` - интерактивный выбор версии  
+    > Например:  
+    ![doc/capture3.png](doc/capture3.png)
 
 ----------------------------------------------------
 
